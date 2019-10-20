@@ -177,7 +177,7 @@ for i in range(1,len(g)):
 
 print(path, totalDist)
 final_path = []
-for i in range(50):
+for i in range(N_targets):
     # print(data)
     point_number = path[i]
     next_point_number = path[i+1]
